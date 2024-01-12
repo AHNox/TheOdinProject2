@@ -59,8 +59,36 @@ a {
 .hero-text {
 	background-color: var(--dark-background-color);
 	display: flex;
-	flex: 1 0 50%;
 	justify-content: space-between;
 }
 
-.hero-
+.hero-right,
+.hero-left {
+	flex: 0 1 50%;
+}
+
+.hero-right {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.hero-main-text {
+	font-size: var(--hero-main-text-size);
+	font-weight: var(--hero-main-text-weight);
+	color: var(--hero-main-text-color);
+}
+
+.hero-second-text {
+	font-size: var(--hero-secondary-text-size);
+	color: var(--hero-secondary-text-color);
+}
+
+button {
+	background-color: var(--button-color-call-to-action-color);
+	color: white;
+	border-radius: 8px;
+	padding: 8px 32px;
+	font-size: var(--hero-secondary-text-size);
+	font-weight: bold;
+	flex-grow: 0;
+}
