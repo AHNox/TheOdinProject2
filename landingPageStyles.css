@@ -69,7 +69,7 @@ a {
 
 .hero-right,
 .hero-left {
-	flex: 0 0 500px;
+	flex: 0 1 30%;
 }
 
 .hero-right {
@@ -153,4 +153,24 @@ button {
 
 .subtext {
 	text-align: center;
+}
+
+.inspo-quote {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--quote-section-background-color);
+	padding: 2% 25%;
+}
+
+.reg-quote {
+	font-size: var(--quote-text-size);
+	font-weight: var(--quote-text-weight);
+	color: var(--quote-text-color);
+}
+
+.person-quote {
+	align-self: flex-end;
+	font-size: 21px;
+	font-weight: bold;
 }
