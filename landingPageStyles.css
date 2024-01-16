@@ -126,6 +126,7 @@ button {
 	font-size: var(--information-header-text-size);
 	font-weight: var(--information-header-text-weight);
 	color: var(--information-header-text-color);
+	text-align: center;
 }
 
 .image-subtext-flex-container {
@@ -173,4 +174,13 @@ button {
 	align-self: flex-end;
 	font-size: 21px;
 	font-weight: bold;
+}
+
+.call-to-action {
+	margin: 25px 10%;
+	background-color: var(--button-color-call-to-action-color);
+}
+
+#cta-button {
+	border-color: white;
 }
